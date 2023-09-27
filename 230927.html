@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>텍스트 입력 폼</title>
+</head>
+<body>
+    <h3>자기 소개서 작성</h3>
+    <hr>
+    <form>
+        이름:<input type="text" value=""><br>
+        암호:<input type="password" value=""maxlength="4"><br>
+        자소서:<textarea cols="20" rows="5">s
+        </textarea>
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>버튼이 있는 입력 폼</title>
+</head>
+<body>
+    <h3>버튼을 만들자</h3>
+    <hr>
+    <form>
+        검색:<input type="text" size="10" value="">
+        <input type="button" value="Q1">
+        <button type="button"> Q2</button><br>
+        submit 버튼:<input type="submit" value="전송1">
+        <button type="submit">전송2</button><br>
+        reset버튼:<input type="reset" value="리셋1">
+        <button type="reset">리셋2</button><br>
+        이미지 버튼:<input type="image" src="media/button.png"
+        alt="이미지 버튼">
+        <button type="button">
+            <img src="media/button.png" alt="이미지 버튼">
+        </button>
+
+    </form>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>목록리스트</title>
+</head>
+<body>
+    <form>
+    나라:<input type="text" list="countries">
+    <datalist id="countries">
+    <option value="설정">설정</option>
+        <option value="내활동">내활동</option>
+        <option value="보관">보관</option>
+        <option value="저장됨">저징됨</option>
+        </form>
+    </datalist>
+</body>
+</html>
