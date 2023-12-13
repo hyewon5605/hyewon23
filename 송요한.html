@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>요한민족</title>
+    <style>
+        body{
+            margin: 0;
+            padding:0 ;
+            overflow: hidden;
+        }
+        #video-background{
+            position:fixed ;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+        }
+        #content{
+            position: absolute;
+            top:40%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            text-align: center;
+            color: white;
+            font-size: 24px;
+        }
+        a{
+           text-decoration: none;
+           font-size:30px;
+           font-weight: bold;
+           color: white;
+           letter-spacing:10px;
+        }
+    </style>
+</head>
+<body>
+    <video id="video-background" autoplay loop muted>
+        <source src="요리.mp4" type="video/mp4">
+    </video>
+    <div id="content">
+        <p class="animated-link">
+        <a href="">요한 민족</a>
+        </p>
+    <a href="">중식</a>
+    <a href="">일식</a>
+    <a href="">한식</a>
+    <a href="">양식</a>
+</div>
+</body>
+</html>

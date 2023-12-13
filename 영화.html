@@ -7,7 +7,7 @@
     <style>
         body{
             margin: 0;
-            padding: ;
+            padding:0 ;
             overflow: hidden;
         }
         #video-background{
@@ -29,32 +29,33 @@
             color: white;
             font-size: 24px;
         }
-        span{
+        .animated-link a{
           font-size: 150px;
           font-weight: bold;
           font-weight: 400px;
           animation-name: bomb;
-         animation-duration:3s;
-         -o-animation-iteration-count: infinite ;
+         animation-duration:4s;
+         animation-iteration-count: infinite ;
         }
         @keyframes textcolor{
-           40%{color: white;}
-           70%{color:black;}
+           100%{color: white;}
+           100%{color:black;}
            100%{color:greenyellow;}
         }
         @keyframes bomb{
             150%{font-size:150%;}
             150%{font-size:150%;}
-           40%{color: white;}
-           70%{color:black;}
+           1000%{color: white;}
+           100%{color:black;}
            100%{color:greenyellow;}
         }
 
         a{
            text-decoration: none;
-           font-size:25px;
+           font-size:30px;
            font-weight: bold;
            color: white;
+           letter-spacing:10px;
         }
     </style>
 </head>
@@ -63,11 +64,13 @@
         <source src="조명.mp4" type="video/mp4">
     </video>
     <div id="content">
-    <p><span>un movie</span></p>
-    <a href="file:///D:/%EC%98%A4%ED%98%9C%EC%9B%90html/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.html">회원가입</a>
-    <a href="file:///D:/%EC%98%A4%ED%98%9C%EC%9B%90html/%EB%A1%9C%EA%B7%B8%EC%9D%B8.html">로그인</a>
-    <a href="file:///D:/%EC%98%A4%ED%98%9C%EC%9B%90html/%EA%B3%A0%EA%B0%9D%EC%84%BC%ED%84%B0.html">고객센터</a>
-    <a href="b">마이페이지</a>
+        <p class="animated-link">
+        <a href="file:///C:/%EC%98%A4%ED%98%9C%EC%9B%90/hyewon23-main/hyewon23-main/%EB%AC%B4%EB%B9%84.html">un movie</a>
+        </p>
+    <a href=file:///C:/%EC%98%A4%ED%98%9C%EC%9B%90/hyewon23-main/hyewon23-main/%ED%9A%8C%EC%9B%90%EA%B0%80%EC%9E%85.html>회원가입</a>
+    <a href="file:///C:/%EC%98%A4%ED%98%9C%EC%9B%90/hyewon23-main/hyewon23-main/%EB%A1%9C%EA%B7%B8%EC%9D%B8.html">로그인</a>
+    <a href="file:///C:/%EC%98%A4%ED%98%9C%EC%9B%90/hyewon23-main/hyewon23-main/%EA%B3%A0%EA%B0%9D%EC%84%BC%ED%84%B0.html">고객센터</a>
+    <a href="file:///C:/%EC%98%A4%ED%98%9C%EC%9B%90/hyewon23-main/hyewon23-main/%EB%A7%88%EC%9D%B4%ED%8E%98%EC%9D%B4%EC%A7%80.html">마이페이지</a>
 </div>
 </body>
 </html>
